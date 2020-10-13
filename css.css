@@ -1,0 +1,12 @@
+
+
+body {
+    font-family : 'Sansita Swashed';
+    background-image: url('images/backgroundImage2.png');
+}
+
+
+.icons i,
+.icons svg {
+   color: #2759AE;
+}

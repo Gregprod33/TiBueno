@@ -1,12 +1,75 @@
 
 
+
+
 body {
-    font-family : 'Sansita Swashed';
-    background-image: url('images/backgroundImage2.png');
+    font-family : 'Raleway';
+    background-color: #2D2730;
+    color: white;
+}
+
+body a {
+    color: #483D42;
+}
+
+
+
+
+
+
+
+
+
+#histoire {
+    background-color: #fdae04;
+    border-radius: 8px;
+    text-align: center;
+}
+
+
+
+
+#histoire p {
+    font-size: 1.7em;
+    text-align : justify;
+    color: black;
+}
+
+#histoire h1 {
+    font-size: 3em;
+    color: #483D42;
+    font-family: 'Ramabhadra';
+    text-align: center;
+}
+
+
+#logo img {
+    margin-top: 170px;
+    margin-right: 350px;
+
+}
+
+#logo {
+background-image: url('images/logo.jpg');
+background-repeat: no-repeat;
+}
+
+
+.card {
+    color: #483D42;
 }
 
 
 .icons i,
 .icons svg {
    color: #2759AE;
+}
+
+
+@media(max-width:768px){
+
+    #logo {
+        display: none;
+    
+    }
 }

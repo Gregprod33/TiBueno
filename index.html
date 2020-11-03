@@ -3,20 +3,22 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="css.css">
     <script defer src="font-awesome/js/all.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Ramabhadra&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Raleway&display=swap" rel="stylesheet"> 
     <title>Rhum-Tib'Bueno</title>
   </head>
 
   <body>
-    
     <div class="bg-warning">
       <div class="container">
         <div class="row">
-          <nav class="col p-0 navbar navbar-expand-lg navbar-light font-weight-bold">
+          <nav class="col p-0 navbar navbar-expand-lg navbar-dark font-weight-bold">
             <a class="navbar-brand m-0 p-0" href="index.html">
               <img class="my-0 ml-3" src="images/logo-crop.jpg" width="70" height="70" alt="Logo Tib'Bueno">
             </a>
@@ -24,12 +26,9 @@
               <span class="navbar-toggler-icon"></span>
             </button>
             <div id="navbarContent" class="collapse navbar-collapse">
-              <ul class="navbar-nav h3">
+              <ul class="navbar-nav h4">
                 <li class="nav-item active">
                   <a class="nav-link" href="index.html">Accueil</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="histoire.html">Histoire</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="rhum.html">Notre Rhum</a>
@@ -45,15 +44,15 @@
     </div>
     
     <div class="container">
-      <div class="row">
-        <div class="col">
+      <div class="row no-gutter">
+        <div class="col" id="car">
           <div id="carouselControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img src="images/image2.jpg" class="d-block w-100" alt="photo de rhum tib'bueno alignés">
               </div>
               <div class="carousel-item">
-                <img src="images/image4.jpg" class="d-block w-100"  alt="photo de rhum tib'bueno alignés">
+                <img src="images/image4.jpg" class="d-block w-100" alt="photo de rhum tib'bueno alignés">
               </div>
             </div>
             <a class="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev">
@@ -69,22 +68,25 @@
       </div>
     </div> 
 
-    <div class="container-fluid">
-      <div class="row justify-content-center mt-4">
-        <div class="d-none d-md-block col-md-3 text-center" id="logo"> 
-        </div>
-        <div class="col-12 col-md-4" id="histoire">
-            <img src="images/Tiburce.png" alt="Tiburce_Lof" width="150" height="150">
+    <div class="container">
+      <div class="row mt-4 justify-content-center no-gutter">
+        <div class="col-12 col-lg-10" id="histoire">
+          
+            <div class="zoomTiburce float-left">
+              <div class="imageTiburce">
+                <img src="images/Tiburce.png" alt="Tiburce_Lof" width="80" height="80">
+              </div>
+            </div>
+          
+          <div class="histoire">
             <h1>LA NAISSANCE D'UNE RECETTE UNIQUE</h1>
             <p>  
               Les Rhums aux thés parfumés <strong>Tib'bueno</strong> sont nés d’une rencontre de passionnés bordelais.   
               D’un côté, la force des rhums des Caraïbes incarnée par <strong>Tiburce LOF</strong> et <strong>Thierry LEBON</strong> : deux amoureux de la Martinique. De l’autre, la délicatesse des saveurs des thés parfumés de <strong>Denis Junqua</strong>, tea sommelier, créateur de la société <a href="https://www.facebook.com/jardins.aphrodite/" target="_blank">BIO THES DU MONDE.</a>   
               Un pari risqué et singulier, puisque ce type de rhum arrangé n’existe pas aujourd’hui sur le marché des spiritueux. Il a fallu beaucoup de patience à Thierry et Tiburce pour trouver les bons ingrédients et les bons dosages. C’est en faisant la connaissance de Denis et de ses créations de thés parfumés Bio, que l’alchimie s’opéra. La qualité de ses thés et la richesse organoleptique de ses mélanges ont permis aux rhums <strong>Tib'bueno</strong> de prendre toutes leurs dimensions gustatives. 
-              Les secrets de distillation et d’infusions de Thierry et Tiburce ont fait le reste. 
-            
-              Aujourd’hui, Tib'bueno propose une gamme de 2 saveurs distinctes : 
-              un rhum parfumé au thé cocktail de fruits
-              un rhum parfumé au thé épicé</p>
+              Les secrets de distillation et d’infusions de Thierry et Tiburce ont fait le reste.
+              </p>
+          </div>
         </div>
       </div>
     </div>
@@ -92,50 +94,98 @@
 
 
     <div class="container">
-      <div class="row mt-4">
-        <div class="col-12 col-lg-6">
+      <div class="row mt-4 mb-4 justify-content-center no-gutter">
+        <div class="col-12 col-md-6" id="card2">
           <div class="card">
-            <img class="card-img-top" src="images/imageThé3Crop.jpg" alt="photo de thé">
-                <a href="recette.html">
-              <div class="card-body">
-                <h4 class="card-title font-weight-bold">Une recette unique au monde !</h4>
-                <p class="card-text h5">Découvrez les secrets de notre préparation exclusive.</p>
-                </a>
+            <img class="card-img-top" src="images/image6resize.jpg" alt="Photo Rhum Tib'Bueno">
+            <div class="card-body text-center">
+              <a class="btn btn-warning" href="rhum.html" role="button">Découvrez nos produits</a>   
             </div>
-          </div> 
-        </div> 
-        <div class="col-12 col-lg-6">
-          <div class="card"><a href="rhum.html">
-            <img class="card-img-top" src="images/image1Crop.jpg" alt="Photo Rhum Tib'Bueno">
-            <a href="rhum.html">
-            <div class="card-body">
-              <h4 class="card-title font-weight-bold">Notre Rhum</h4>
-              <p class="card-text h5">Découvrez nos produits.</p>
-            </a>    
+          </div>    
+        </div>
+      </div>
+
+      
+      <div class="row mt-5 mb-4" id="rowPartenaires">
+          <div class="col-12" id="partenaires">
+            <div class="titre text-center">
+              <h4>NOS PARTENAIRES</h4>
             </div>
           </div>
+          <div class="col-12 col-md-4 meneau">
+            <div class="zoomMeneau">
+              <div class="imageMeneau">
+                <a href="http://www.meneau.com/" target="_blank"><img class="card-img-top" src="images/maison meneau logo.jpg" alt="Logo maison Meneau"></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 thés">
+            <div class="zoomThés">
+              <div class="imageThés">
+                <a href="https://www.facebook.com/jardins.aphrodite/" target="_blank"><img class="card-img-top" src="images/thés_du_monde.png" alt="Logo thés du monde"></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 abatilles">
+            <div class="zoomAbatilles">
+              <div class="imageAbatilles">
+                <a href="http://sourcedesabatilles.com/" target="_blank"><img class="card-img-top" src="images/Abatilles-300x188.jpg" alt="Logo Abatilles"></a>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row" id="copyright">
+        <div class="col-12">
+          <p>©GregBoes</p>
         </div>
       </div>
     </div>
     
-    <div class = "bg-dark">
+    
+
+    <div class ="bg-warning">
       <div class="container">
-        <div class="row">
-          <div class="col">
-            <ul class="list-inline m-1 font-weight-bold text-left text-lg-center">
-              <li class="list-inline-item list-unstyled font-color-black"><a href = "mentions.html">mentions légales</a></li>
+        <div class="row list-inline" id="mentions">
+          <div class="col-12">
+            <ul class="list-inline m-1 text-center font-weight-bold">
+              <li class="list-inline-item">
+                <a href="mentions.html">Mentions légales</a>
               </li>
               <li class="list-inline-item">
-                <a href="https://www.facebook.com/tibbueno/?epa=SEARCH_BOX" target="_blank"><img src="images/facebook-logo.png" class="p-0" with="40" height="40"></a>              
+                <a href="https://www.facebook.com/tibbueno/?epa=SEARCH_BOX" target="_blank">
+                  <div class="zoomFb">
+                    <div class="imageFb">
+                      <img src="images/fb-cropped.png" with="40" height="40">
+                    </div>
+                  </div>
+                </a>              
               </li>
               <li class="list-inline-item">
-                <a href="https://www.instagram.com/tibbueno/" target="_blank"><img src="images/instagram-logo.webp" class="p-0"  with="32" height="33"></a>              
+                <a href="https://www.instagram.com/tibbueno/" target="_blank">
+                  <div class="zoomInsta">
+                    <div class="imageInsta">
+                      <img src="images/insta-cropped.png" with="40" height="40">
+                    </div>
+                  </div>
+                </a>              
               </li>
             </ul>   
           </div>
         </div>
       </div>
     </div>
+
+
+    <nav class="navbar fixed-bottom navbar-light bg-light justify-content-center">
+      <a class="navbar-brand">L'ABUS D'ALCOOL EST DANGEREUX POUR LA SANTE. A CONSOMMER AVEC MODERATION.</a>
+    </nav>
+
+    
+    
+  
     
     
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -144,5 +194,4 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   </body>
-</html>
 </html>

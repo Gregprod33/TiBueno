@@ -18,27 +18,46 @@ body a {
 
 .btn {
     color: white;
+    box-shadow: 0px 0.5px 2px black;
+}
+
+#bandeau {
+    box-shadow: 0px 0.5px 2px black
 }
 
 
-
-
-
+.bg-warning {
+    box-shadow: 0px 0.5px 2px black;
+}
 
 
 .navbar-nav li {
     font-family: 'Manrope', sans-serif;
+    
 }
+
+
+
+
 
 
 
 
 
 #histoire {
-    background-color: #FEC107;
     border-radius: 8px;
     text-align: center;
-    padding-right: 15px;    
+    padding:0px;   
+}
+
+
+.histoire h1 {
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
+
+.histoire p {
+    font-weight: normal;
 }
 
 
@@ -70,10 +89,26 @@ body a {
 
 
 
+.carousel {
+    box-shadow: 0px 0.5px 2px black;
+    margin-top: 1px;
+}
+
+
+
+
+
+#histoire {
+    box-shadow: 0px 0.5px 2px black; 
+}
+
+
+
 #histoire .histoire p {
     font-size: 1em;
     text-align : justify;
     color: white;
+    
 }
 
 
@@ -88,6 +123,7 @@ body a {
     color: white;
     font-family: 'Raleway', sans-serif;
     text-align: center;
+    
 }
 
 
@@ -100,6 +136,7 @@ body a {
 .card {
     color: #FEC107;
     font-weight: bold;
+    box-shadow: 0px 0.5px 2px black;
 }
 
 
@@ -111,19 +148,17 @@ body a {
 
 #rowPartenaires {
     background-color :#FEC107;
+    box-shadow: 0px 0.5px 2px black;
 
 }
 
 #rowPartenaires h4 {
     padding-top: 50px;
+    font-weight: bold;
 
 }
 
 
-
-#prestations h4 {
-    color: #FEC107;
-}
 
 
 
@@ -148,6 +183,7 @@ body a {
     -ms-transition: all 1s ease; /* Internet Explorer 9 */
     -o-transition: all 1s ease; /* Opera */
     transition: all 1s ease;
+    box-shadow: 0px 0.5px 2px black;
     }
     .imageMeneau:hover img {
     /* L'image est grossie de 25% */
@@ -175,6 +211,7 @@ body a {
         -ms-transition: all 1s ease; /* Internet Explorer 9 */
         -o-transition: all 1s ease; /* Opera */
         transition: all 1s ease;
+        box-shadow: 0px 0.5px 2px black;
         }
         .imageThés:hover img {
         /* L'image est grossie de 25% */
@@ -203,6 +240,7 @@ body a {
             -ms-transition: all 1s ease; /* Internet Explorer 9 */
             -o-transition: all 1s ease; /* Opera */
             transition: all 1s ease;
+            box-shadow: 0px 0.5px 2px black;
             }
             .imageAbatilles:hover img {
             /* L'image est grossie de 25% */
@@ -222,16 +260,22 @@ body a {
             
             
             
-            .navbar-brand {
-                font-family: 'open-sans', sans-serif;
-                font-size: 0.7em;
-            }
-
+           
 
 
 
 
             /* PRESTATIONS */
+
+
+#prestations h4 {
+    font-weight: bold;
+    color: #FEC107;
+}
+
+
+
+
 
 
 
@@ -297,8 +341,9 @@ body a {
 }
 
 
-#copyright p {
+.copyright p {
     font-size: 0.8em;
+    color: black;
 }
 
 
@@ -307,10 +352,6 @@ body a {
 
 /* RHUM */
 
-.notreRhum h3, .notreRhum p {
-    color: white;
-    font-weight: normal;
-}
 
 .notreRhum {
     padding-top: 10px;
@@ -319,12 +360,29 @@ body a {
 
 
 .rhums {
-    background-color:#FEC107;
-    color: #FEC107;
-    font-weight: bold;
+    
+    color: white;
+    font-weight: normal;
+    
+}
+
+.rhumsIntro p, .rhumsIntro h3   {
+    color: white;
+    font-weight: normal;
+    font-family : 'Raleway', sans-serif;
+}
+
+.rhums p, .rhums h4 {
+    color: white;
+    font-weight: normal;
+    font-family : 'Raleway', sans-serif;
 }
 
 
+.rhums a {
+    color: #FEC107;
+    font-weight: bold;
+}
 
 
 
@@ -387,7 +445,37 @@ body a {
 .mentionsParagraphe h4 {
     color: #FEC107;
     padding-top: 20px;
+    font-weight: bold;
 }
+
+
+.mentionsParagraphe p {
+    color: black;
+    
+}
+
+.mentionsParagraphe a {
+    color: #FEC107;
+}
+
+
+
+
+
+/* BANDEAU ALCOOL */
+
+.navbar-brand {
+    font-family: 'open-sans', sans-serif;
+    font-size: 0.7em;
+    margin-right: 0px;
+}
+
+
+
+
+
+
+
 
 
 
@@ -483,6 +571,14 @@ body a {
 
 
 
+
+
+    
+
+
+    
+
+
 }
 
 
@@ -509,3 +605,19 @@ body a {
 
 
 }
+
+
+@media(max-width: 576px) {
+
+    
+    .navbar-brand {
+       
+        font-size: 0.5em;
+        margin-right: 0px;
+    }
+
+
+
+
+}
+

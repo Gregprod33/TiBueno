@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="css.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Ramabhadra&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
@@ -17,7 +18,7 @@
     <div class="bg-warning" id="bandeau">
       <div class="container">
         <div class="row">
-          <nav class="col p-0 navbar navbar-expand-lg navbar-dark font-weight-bold">
+          <nav class="col p-0 navbar navbar-expand-lg navbar-light font-weight-bold">
             <a class="navbar-brand m-0 p-0" href="index.html">
               <img class="my-0 ml-3" src="images/logo-crop.jpg" width="70" height="70" alt="Logo_TibBueno">
             </a>
@@ -32,6 +33,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="rhum.html">Notre Rhum</a>
                 </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="degustations.html">Dégustation</a>
+              </li>
                 <li class="nav-item">
                     <a class="nav-link" href="contact.html">Contact</a>
                 </li>
@@ -77,7 +81,7 @@
                   <img src="images/Tiburce.png" alt="Tiburce_Lof" width="80" height="80">
                 </div>
               </div>
-              <h1>LA NAISSANCE D'UNE RECETTE UNIQUE</h1>
+              <h1 class="text-center">LA NAISSANCE D'UNE RECETTE UNIQUE</h1>
               <p>  
                 Les Rhums aux thés parfumés <strong>Tib'bueno</strong> sont nés d’une rencontre de passionnés bordelais.   
                 D’un côté, la force des rhums des Caraïbes incarnée par <strong>Tiburce LOF</strong> et <strong>Thierry LEBON</strong> : deux amoureux de la Martinique. De l’autre, la délicatesse des saveurs des thés parfumés de <strong>Denis Junqua</strong>, tea sommelier, créateur de la société <a href="https://www.facebook.com/jardins.aphrodite/" target="_blank">BIO THES DU MONDE.</a>   
@@ -91,71 +95,53 @@
     </div>
 
 
-
     <div class="container">
       <div class="row mt-4 mb-4 justify-content-center no-gutter">
         <div class="col-12 col-md-6" id="card2">
-          <div class="card">
-            <img class="card-img-top" src="images/image6resize.jpg" alt="Photo_Rhum_TibBueno">
+          <div class="card bg-warning">
+            <img class="card-img-top" src="images/logo.jpg" alt="Photo_Rhum_TibBueno">
             <div class="card-body text-center">
-              <a class="btn btn-warning" href="rhum.html" role="button">Découvrez nos produits</a>   
+              <a class="btn btn-light" href="rhum.html" role="button">Découvrez nos produits</a>   
             </div>
           </div>    
         </div>
       </div>
     </div>
 
-    <div class="container">  
-      <div class="row mt-4 mb-4 align-items-center" id="rowPartenaires">
+    <div class="container bg-warning">  
+      <div class="d-flex flex-column justify-content-center align-items-center mt-4">
         <div class="col-12" id="partenaires">
           <div class="titre text-center">
             <h4>NOS PARTENAIRES</h4>
           </div>
         </div>
-        <div class="col-12 col-lg-4 text-center meneau">
-          <div class="zoomMeneau">
-            <div class="imageMeneau text-center align-items-center">
-              <a href="http://www.meneau.com/" target="_blank"><img src="images/meneau_logo.jpg" width="320"  alt="Logo_maison_Meneau"></a>
+        <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center">
+          <div class="p-2 meneau">
+            <div class="zoomMeneau">
+              <div class="imageMeneau text-center">
+                <a href="http://www.meneau.com/" target="_blank"><img src="images/meneau_logo.jpg" width="300"  alt="Logo_maison_Meneau"></a>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-12 col-lg-4 thés">
-          <div class="zoomThés">
-            <div class="imageThés text-center">
-              <a href="https://www.facebook.com/jardins.aphrodite/" target="_blank"><img src="images/thés_du_monde.png" width="320" alt="Logo_thés_du_monde"></a>
+          <div class="p-2 thés">
+            <div class="zoomThés">
+              <div class="imageThés text-center">
+                <a href="https://www.facebook.com/jardins.aphrodite/" target="_blank"><img src="images/thés_du_monde.png" width="300" alt="Logo_thés_du_monde"></a>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-12 col-lg-4 abatilles">
-          <div class="zoomAbatilles">
-            <div class="imageAbatilles text-center">
-              <a href="http://sourcedesabatilles.com/" target="_blank"><img src="images/Abatilles-300x188.jpg" width="320" alt="Logo_Abatilles"></a>
+          <div class="p-2 Abatilles">
+            <div class="zoomAbatilles">
+              <div class="imageAbatilles text-center">
+                <a href="http://sourcedesabatilles.com/" target="_blank"><img src="images/Abatilles-300x188.jpg" width="300" alt="Logo_Abatilles"></a>
+              </div>
             </div>
           </div>
         </div>
       </div>  
     </div>
+  
       
-    <div class="container">
-      <div class="row justify-content-center" id="prestations">
-        <div class="col-12 text-center">
-          <h4>PRESTATIONS</h4>
-        </div>
-      </div>
-      <div class="row justify-content-center" id="saveurs">
-        <div class="col-12 col-lg-4">
-          <div class="card">
-            <div class="text-center">
-              <a href="https://www.repas-creoles.com/" target="_blank"><img src="images/aussaveurscréoles.png"  alt="Photo_Rhum_TibBueno"></a>
-            </div>
-            <div class="card-body text-center">
-              <p>Organisation de dégustations de rhums et service de traiteur aux produits créoles "maison" grâce à notre partenaires <strong>AUX SAVEURS CREOLES</strong>.</p>
-              <a class="btn btn-warning" href="contact.html" role="button">Contact</a>   
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
   
 
     <div class="container-fluid">
@@ -170,9 +156,9 @@
 
     <div class ="bg-warning">
       <div class="container">
-        <div class="row list-inline" id="mentions">
-          <div class="col-12">
-            <ul class="list-inline m-1 text-center font-weight-bold">
+        <div class="row list-inline align-items-center" id="mentions">
+          <div class="col-12 align-items-center">
+            <ul class="list-inline m-1 text-center align-items-center font-weight-bold">
               <li class="list-inline-item">
                 <a href="mentions.html">Mentions légales</a>
               </li>

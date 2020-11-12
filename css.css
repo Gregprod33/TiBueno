@@ -5,19 +5,20 @@
 body {
     font-family : 'Raleway', sans-serif;
     
-    color: white;
-    background-image: url('images/feuillepalmier3.png');
-    background-size: 110%;
-    background-repeat: no-repeat;
+    color: black;
+    background-image: url('images/composite.png');
+    background-size: 120%;
+    background-position-x: center;
     background-attachment: fixed;
+    margin: auto;
 }
 
 body a {
-    color: white;   
+    color: black;   
 }
 
 .btn {
-    color: white;
+    color: black;
     box-shadow: 0px 0.5px 2px black;
 }
 
@@ -33,6 +34,9 @@ body a {
 
 .navbar-nav li {
     font-family: 'Manrope', sans-serif;
+    
+    
+    
     
 }
 
@@ -107,7 +111,7 @@ body a {
 #histoire .histoire p {
     font-size: 1em;
     text-align : justify;
-    color: white;
+    color: black;
     
 }
 
@@ -120,7 +124,7 @@ body a {
 #histoire .histoire h1 {
     padding-top: 10px;
     font-size: 2em;
-    color: white;
+    color: black;
     font-family: 'Raleway', sans-serif;
     text-align: center;
     
@@ -134,28 +138,12 @@ body a {
 
 
 .card {
-    color: #FEC107;
-    font-weight: bold;
+    color: black;
     box-shadow: 0px 0.5px 2px black;
 }
 
-
-
-
-
-
-
-
-#rowPartenaires {
-    background-color :#FEC107;
-    box-shadow: 0px 0.5px 2px black;
-
-}
-
-#rowPartenaires h4 {
-    padding-top: 50px;
+#card2 a {
     font-weight: bold;
-
 }
 
 
@@ -163,6 +151,19 @@ body a {
 
 
 
+
+
+
+
+
+
+
+/* PARTENAIRE */
+
+#partenaires h4 {
+    padding-top: 20px;
+    font-weight: bold;
+}
 
 
 
@@ -170,7 +171,7 @@ body a {
 
 .zoomMeneau {
     width: 350px;
-    height: 320px;
+    height: 265px;
     }
     .imageMeneau {
     width: 100%;
@@ -198,7 +199,7 @@ body a {
 
     .zoomThés {
         width: 350px;
-        height: 250px;
+        height: 165px;
         }
         .imageThés {
         width: 100%;
@@ -227,7 +228,7 @@ body a {
 
         .zoomAbatilles {
             width: 350px;
-            height: 300px;
+            height: 240px;
             }
             .imageAbatilles {
             width: 100%;
@@ -265,86 +266,6 @@ body a {
 
 
 
-            /* PRESTATIONS */
-
-
-#prestations h4 {
-    font-weight: bold;
-    color: #FEC107;
-}
-
-
-
-
-
-
-
-.zoomFb {
-        width: 40px;
-        height: 40px;
-        }
-        .imageFb {
-        width: 100%;
-        height: 100%;
-        }
-        .imageFb img {
-        /* La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. */
-        -webkit-transition: all 1s ease; /* Safari et Chrome */
-        -moz-transition: all 1s ease; /* Firefox */
-        -ms-transition: all 1s ease; /* Internet Explorer 9 */
-        -o-transition: all 1s ease; /* Opera */
-        transition: all 1s ease;
-        }
-        .imageFb:hover img {
-        /* L'image est grossie de 25% */
-        -webkit-transform:scale(1.25); /* Safari et Chrome */
-        -moz-transform:scale(1.25); /* Firefox */
-        -ms-transform:scale(1.25); /* Internet Explorer 9 */
-        -o-transform:scale(1.25); /* Opera */
-        transform:scale(1.25);
-}
-
-
-.zoomInsta {
-    width: 30px;
-    height: 30px;
-    }
-    .imageInsta {
-    width: 100%;
-    height: 100%;
-    }
-    .imageInsta img {
-    /* La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. */
-    -webkit-transition: all 1s ease; /* Safari et Chrome */
-    -moz-transition: all 1s ease; /* Firefox */
-    -ms-transition: all 1s ease; /* Internet Explorer 9 */
-    -o-transition: all 1s ease; /* Opera */
-    transition: all 1s ease;
-    }
-    .imageInsta:hover img {
-    /* L'image est grossie de 25% */
-    -webkit-transform:scale(1.25); /* Safari et Chrome */
-    -moz-transform:scale(1.25); /* Firefox */
-    -ms-transform:scale(1.25); /* Internet Explorer 9 */
-    -o-transform:scale(1.25); /* Opera */
-    transform:scale(1.25);
-}
-
-
-
-
-
-
-
-#mentions a {
-    color: black;
-}
-
-
-.copyright p {
-    font-size: 0.8em;
-    color: black;
-}
 
 
 
@@ -361,28 +282,69 @@ body a {
 
 .rhums {
     
-    color: white;
+    color: black;
     font-weight: normal;
     
 }
 
 .rhumsIntro p, .rhumsIntro h3   {
-    color: white;
+    color: black;
     font-weight: normal;
     font-family : 'Raleway', sans-serif;
 }
 
 .rhums p, .rhums h4 {
-    color: white;
+    color: black;
     font-weight: normal;
     font-family : 'Raleway', sans-serif;
 }
 
 
 .rhums a {
-    color: #FEC107;
+    color: black;
     font-weight: bold;
 }
+
+
+
+
+
+/* DEGUSTATION */
+
+.degust p {
+    font-weight: normal;
+}
+
+.degust a {
+    font-weight: bold;
+}
+
+
+
+.zoomDegust {
+    width: 538px;
+    height: 300px;
+    }
+    .imageDegust {
+    width: 100%;
+    height: 100%;
+    }
+    .imageDegust img {
+    /* La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. */
+    -webkit-transition: all 1s ease; /* Safari et Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* Internet Explorer 9 */
+    -o-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+    }
+    .imageDegust:hover img {
+    /* L'image est grossie de 25% */
+    -webkit-transform:scale(1.06); /* Safari et Chrome */
+    -moz-transform:scale(1.06); /* Firefox */
+    -ms-transform:scale(1.06); /* Internet Explorer 9 */
+    -o-transform:scale(1.06); /* Opera */
+    transform:scale(1.06);
+    }
 
 
 
@@ -395,17 +357,17 @@ body a {
 /* CONTACT */
 
 #contact a {
-    color: white;
+    color: black;
     font-size: 1.3em;
-    font-weight:normal;
+    font-weight:bold;
 }
 
 
 
 #contact p {
     font-size: 1.3em;
-    color: white;
-    font-weight:normal;
+    color: black;
+    font-weight: bold;
 
 }
 
@@ -440,9 +402,83 @@ body a {
 
 
 
+
+
+
+    /* FOOTER */
+
+
+.zoomFb {
+    width: 40px;
+    height: 40px;
+    }
+    .imageFb {
+    width: 100%;
+    height: 100%;
+    }
+    .imageFb img {
+    /* La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. */
+    -webkit-transition: all 1s ease; /* Safari et Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* Internet Explorer 9 */
+    -o-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+    }
+    .imageFb:hover img {
+    /* L'image est grossie de 25% */
+    -webkit-transform:scale(1.25); /* Safari et Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* Internet Explorer 9 */
+    -o-transform:scale(1.25); /* Opera */
+    transform:scale(1.25);
+}
+
+
+.zoomInsta {
+width: 30px;
+height: 30px;
+}
+.imageInsta {
+width: 100%;
+height: 100%;
+}
+.imageInsta img {
+/* La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. */
+-webkit-transition: all 1s ease; /* Safari et Chrome */
+-moz-transition: all 1s ease; /* Firefox */
+-ms-transition: all 1s ease; /* Internet Explorer 9 */
+-o-transition: all 1s ease; /* Opera */
+transition: all 1s ease;
+}
+.imageInsta:hover img {
+/* L'image est grossie de 25% */
+-webkit-transform:scale(1.25); /* Safari et Chrome */
+-moz-transform:scale(1.25); /* Firefox */
+-ms-transform:scale(1.25); /* Internet Explorer 9 */
+-o-transform:scale(1.25); /* Opera */
+transform:scale(1.25);
+}
+
+
+#metions {
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
     /* MENTIONS LEGALES */
 
+
+
+    
 .mentionsParagraphe h4 {
+    
     color: #FEC107;
     padding-top: 20px;
     font-weight: bold;
@@ -572,11 +608,37 @@ body a {
 
 
 
+            
+    .zoomDegust {
+        width: 100%;
+        height: 100%;
+        }
+        .imageDegust {
+        width: 100%;
+        height: 100%;
+        }
+        .imageDegust img {
+        /* La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. */
+        -webkit-transition: none; /* Safari et Chrome */
+        -moz-transition: none; /* Firefox */
+        -ms-transition: none; /* Internet Explorer 9 */
+        -o-transition: none; /* Opera */
+        transition: none;
+        }
+        .imageDegust:hover img {
+        /* L'image est grossie de 25% */
+        -webkit-transform:scale(none); /* Safari et Chrome */
+        -moz-transform:scale(none); /* Firefox */
+        -ms-transform:scale(none); /* Internet Explorer 9 */
+        -o-transform:scale(none); /* Opera */
+        transform:scale(none);
+        }
 
-    
 
 
-    
+
+
+
 
 
 }
@@ -616,6 +678,159 @@ body a {
         margin-right: 0px;
     }
 
+
+    #contact a, #contact p {
+        font-size: 1em;
+        
+    }
+    
+    
+    .list-inline-item img {
+        width: 35px;
+        height: 35px;
+    }
+
+
+
+
+
+    
+    .zoomMeneau {
+        width: 70%;
+        height: 70%;
+        }
+        .imageMeneau {
+        width: 70%;
+        height: 70%;
+        }
+        .imageMeneau img {
+        /* La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. */
+        -webkit-transition: none; /* Safari et Chrome */
+        -moz-transition: none; /* Firefox */
+        -ms-transition: none; /* Internet Explorer 9 */
+        -o-transition: none; /* Opera */
+        transition: none;
+        }
+        .imageMeneau:hover img {
+        /* L'image est grossie de 25% */
+        -webkit-transform:none; /* Safari et Chrome */
+        -moz-transform:none; /* Firefox */
+        -ms-transform:none; /* Internet Explorer 9 */
+        -o-transform:none; /* Opera */
+        transform:none;
+        }
+    
+    
+        .zoomThés {
+            width: 70%;
+            height: 70%;
+            }
+            .imageThés {
+            width: 70%;
+            height: 70%;
+            }
+            .imageThés img {
+            /* La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. */
+            -webkit-transition: none; /* Safari et Chrome */
+            -moz-transition: none; /* Firefox */
+            -ms-transition: none; /* Internet Explorer 9 */
+            -o-transition: none; /* Opera */
+            transition: none;
+            }
+            .imageThés:hover img {
+            /* L'image est grossie de 25% */
+            -webkit-transform:none; /* Safari et Chrome */
+            -moz-transform:none; /* Firefox */
+            -ms-transform:none; /* Internet Explorer 9 */
+            -o-transform:none; /* Opera */
+            transform:none;
+            }
+    
+    
+    
+    
+            .zoomAbatilles {
+                width: 70%;
+                height: 70%;
+                }
+                .imageAbatilles {
+                width: 70%;
+                height: 70%;
+                }
+                .imageAbatilles img {
+                /* La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. */
+                -webkit-transition: none; /* Safari et Chrome */
+                -moz-transition: none; /* Firefox */
+                -ms-transition: none; /* Internet Explorer 9 */
+                -o-transition: none; /* Opera */
+                transition: none;
+                }
+                .imageAbatilles:hover img {
+                /* L'image est grossie de 25% */
+                -webkit-transform:none; /* Safari et Chrome */
+                -moz-transform:none; /* Firefox */
+                -ms-transform:none; /* Internet Explorer 9 */
+                -o-transform:none; /* Opera */
+                transform:none;
+                }
+
+
+
+
+
+
+
+
+    .zoomFb {
+        width: 33px;
+        height: 33px;
+        }
+        .imageFb {
+        width: 100%;
+        height: 100%;
+        }
+        .imageFb img {
+        /* La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. */
+        -webkit-transition: none; /* Safari et Chrome */
+        -moz-transition: none; /* Firefox */
+        -ms-transition: none; /* Internet Explorer 9 */
+        -o-transition: none; /* Opera */
+        transition: none;
+        }
+        .imageFb:hover img {
+        /* L'image est grossie de 25% */
+        -webkit-transform: none; /* Safari et Chrome */
+        -moz-transform: none; /* Firefox */
+        -ms-transform: none; /* Internet Explorer 9 */
+        -o-transform: none; /* Opera */
+        transform: none;
+    }
+    
+    
+    .zoomInsta {
+    width: 33px;
+    height: 33px;
+    }
+    .imageInsta {
+    width: 100%;
+    height: 100%;
+    }
+    .imageInsta img {
+    /* La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. */
+    -webkit-transition: none; /* Safari et Chrome */
+    -moz-transition: none; /* Firefox */
+    -ms-transition: none; /* Internet Explorer 9 */
+    -o-transition: none; /* Opera */
+    transition: none;
+    }
+    .imageInsta:hover img {
+    /* L'image est grossie de 25% */
+    -webkit-transform: none; /* Safari et Chrome */
+    -moz-transform: none; /* Firefox */
+    -ms-transform: none; /* Internet Explorer 9 */
+    -o-transform: none; /* Opera */
+    transform: none;
+    }
 
 
 

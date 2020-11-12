@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="css.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Ramabhadra&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
@@ -15,8 +14,7 @@
   </head>
 
   <body>
-    <div id="content" style="min-height:30vh">
-      <div class="bg-warning" id="bandeau">
+    <div class="bg-warning" id="bandeau">
         <div class="container">
           <div class="row">
             <nav class="col p-0 navbar navbar-expand-lg navbar-light font-weight-bold">
@@ -34,11 +32,11 @@
                   <li class="nav-item">
                       <a class="nav-link" href="rhum.html">Notre Rhum</a>
                   </li>
-                  <li class="nav-item">
+                  <li class="nav-item active">
                     <a class="nav-link" href="degustations.html">Dégustation</a>
                 </li>
                   <li class="nav-item">
-                      <a class="nav-link active" href="contact.html">Contact</a>
+                      <a class="nav-link" href="contact.html">Contact</a>
                   </li>
                 </ul>
               </div>
@@ -47,34 +45,34 @@
         </div>
       </div>
 
-      <div class=container>
-          <div class="row justify-content-center mt-4">
-              <div class="col-12 col-md-6 pt-3 text-center rhums" id="contact">
-                  <div class="card bg-warning">
-                      <div class="zoomTibueno">
-                          <div class="imageTibueno">
-                              <img class="card-img-top" src="images/image1Crop.jpg" width="400" alt="photo_Rhum_TibBueno">
-                          </div>
-                      </div>
-                      <div class="card-body">
-                        <p>LOF TIBURCE : 06 17 67 83 57</p>
-                        <a href="mailto:tibbueno@gmail.com" target="_blank">tibbueno@gmail.com</a>
-                      </div>
-                  </div>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-6 mt-4 text-center degust">
+            <div class="card bg-warning">
+              <div class="zoomDegust">
+                <div class= "imageDegust">
+                  <img class="card-img-top" src="images/image4.jpg"  alt="Photo_Rhum_TibBueno">
+                </div>
               </div>
-          </div>             
-      </div>
-
-      <div class="container-fluid">
-        <div class="row copyright">
-          <div class="col-12">
-            <p>©GregBoes</p>
+              <div class="card-body text-center">
+                <p><strong>Tib'bueno</strong> vous propose des dégustations adaptées à vos envies ! Que vous soyez une entreprise, un particulier ou un CE, nous vous accompagnons pour un moment hors du temps à la découverte de nos produits !</p>
+                <a class="btn btn-light" href="contact.html" role="button">Pour en savoir plus</a>   
+              </div>
+            </div>
           </div>
         </div>
       </div>
+
+    <div class="container-fluid">
+      <div class="row copyright">
+        <div class="col-12">
+          <p>©GregBoes</p>
+        </div>
+      </div>
     </div>
-        
-        
+      
+      
+
     <div class ="bg-warning">
       <div class="container">
         <div class="row list-inline align-items-center" id="mentions">
@@ -107,27 +105,16 @@
       </div>
     </div>
 
-    <div class="bg-light">
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            <nav class="navbar fixed-bottom navbar-light bg-light justify-content-center">
-              <a class="navbar-brand">L'ABUS D'ALCOOL EST DANGEREUX POUR LA SANTE. A CONSOMMER AVEC MODERATION.</a>
-            </nav>
-          </div>
-        </div>
-      </div>
-    </div>
-    
 
+    <nav class="navbar fixed-bottom navbar-light bg-light justify-content-center">
+      <a class="navbar-brand">L'ABUS D'ALCOOL EST DANGEREUX POUR LA SANTE. A CONSOMMER AVEC MODERATION.</a>
+    </nav>
     
-      
-      
-      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-      
-      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   </body>
 </html>
